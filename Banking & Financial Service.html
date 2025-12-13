@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Banking & Financial Services (BFS) | NeST Digital</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+        /* Page background – fintech / digital payment theme */
+        body {
+            margin: 0;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+            color: #ffffff;
+            background-image: url("https://images.pexels.com/photos/4968655/pexels-photo-4968655.jpeg");
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+        }
+
+        /* Header (logo + navbar) */
+        .header-container {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            background-color: rgba(255, 255, 255, 0.98);
+            padding: 8px 20px;
+        }
+
+        .navbar {
+            flex-grow: 1;
+            justify-content: center !important;
+            background-color: transparent !important;
+        }
+
+        .navbar-brand {
+            font-weight: 700;
+        }
+
+        .nav-link {
+            color: #004080 !important;
+            font-weight: 500;
+        }
+
+        .nav-link:hover {
+            text-decoration: underline;
+        }
+
+        /* Dark overlay behind main content for readability */
+        .page-overlay {
+            background: rgba(0, 0, 0, 0.70);
+            min-height: calc(100vh - 70px);
+            padding: 40px 0 30px;
+        }
+
+        .tagline {
+            font-size: 0.95rem;
+            letter-spacing: 0.09em;
+            text-transform: uppercase;
+            color: #8fe3ff;
+        }
+
+        .section-title {
+            font-size: 2rem;
+            font-weight: 700;
+        }
+
+        .highlight {
+            color: #4dd4ff;
+            font-weight: 600;
+        }
+
+        .list-custom li {
+            margin-bottom: 6px;
+        }
+
+        .section-block {
+            margin-top: 22px;
+        }
+
+        footer {
+            text-align: center;
+            font-size: 0.9rem;
+            background-color: #000000;
+            color: #e0e0e0;
+            padding: 10px;
+            margin-top: 25px;
+        }
+
+        a.back-link {
+            color: #8fe3ff;
+            text-decoration: none;
+            font-size: 0.9rem;
+        }
+        a.back-link:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- HEADER + NAVBAR -->
+    <div class="header-container">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7cFCGdvHnMLHbQewlWcwuH5Un3C-9dnZDbw&s"
+             class="img-thumbnail"
+             width="80" height="80">
+
+        <nav class="navbar navbar-expand-lg w-100">
+            <div class="container justify-content-center">
+                <a class="navbar-brand" href="#">NeST Technologies</a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
+                    <ul class="navbar-nav text-center">
+                        <li class="nav-item"><a class="nav-link active" href="nest.html">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="About Us.html">About Us</a></li>
+                        <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button"
+                           data-bs-toggle="dropdown">Services</a>
+                           <ul class="dropdown-menu text-center">
+    <li><a class="dropdown-item" href="Cloud Web Application Services.html">Cloud Web Application Services</a></li>
+    <li><a class="dropdown-item" href="cyber security Services.html">cyber security Services</a></li>
+    <li><a class="dropdown-item" href="Data Engineering Services.html">Data Engineering Services</a></li>
+    <li><a class="dropdown-item" href="DevOps SERVICES.html">DevOps SERVICES</a></li>
+    <li><a class="dropdown-item" href="GIS SERVICES.html">GIS SERVICES</a></li>
+                          </ul>
+                    </li>
+                        <li class="nav-item"><a class="nav-link" href="careers.html">Careers</a></li>
+                        <li class="nav-item"><a class="nav-link" href="Contact Us.html">Contact Us</a></li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button"
+                               data-bs-toggle="dropdown">Business</a>
+
+                            <ul class="dropdown-menu text-center">
+                                <li><a class="dropdown-item" href="Aerospace & Defence.html">Aerospace & Defence</a></li>
+                                <li><a class="dropdown-item" href="Banking & Financial Service.html">Banking & Financial Service (BFS)</a></li>
+                                <li><a class="dropdown-item" href="Healthcare.html">Healthcare</a></li>
+                                <li><a class="dropdown-item" href="Insurance.html">Insurance</a></li>
+                                <li><a class="dropdown-item" href="Locomotive.html">Locomotive</a></li>
+                                <li><a class="dropdown-item" href="Industrial.html">Industrial</a></li>
+                                <li><a class="dropdown-item" href="Mobility.html">Mobility</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </nav>
+    </div>
+
+   
+    <div class="page-overlay">
+        <div class="container">
+
+            <a href="index.html" class="back-link">&larr; Back to Home</a>
+
+            <p class="tagline mt-2">Banking & Financial Services (BFS)</p>
+            <h1 class="section-title">
+                Accelerating the cashless economy efficiently
+            </h1>
+            <p class="mb-3">
+                <strong>…by adopting global standards & local priorities</strong>
+            </p>
+
+            <p>
+                The <span class="highlight">Banking and Financial Services (BFS) Group at NeST Digital</span> has
+                established itself with over two decades of experience as a pioneer and leader in the GCC market by
+                providing advanced payment platform solutions. Our offerings are based on scalable microarchitecture and
+                modern technology stacks, implemented across 30+ leading financial institutions – a true testimony to
+                our established credentials in this domain.
+            </p>
+
+           
+            <div class="section-block">
+                <h4>Key Capabilities</h4>
+                <ul class="list-custom">
+                    <li>End-to-end <strong>payment platform solutions</strong> for banks and financial institutions</li>
+                    <li>Support for <strong>card payments, wallets, UPI, QR, POS and internet / mobile banking</strong></li>
+                    <li>Scalable microservices-based architecture ready for high transaction volumes</li>
+                    <li>Integration with global payment networks and regional switches</li>
+                    <li>Compliance with international standards and local regulatory guidelines</li>
+                </ul>
+            </div>
+
+           
+            <div class="section-block">
+                <h4>Our BFS Offerings</h4>
+                <ul class="list-custom">
+                    <li>Digital payment ecosystems (Retail & Corporate)</li>
+                    <li>Core banking integration & middleware development</li>
+                    <li>Fraud detection, AML, and risk monitoring support systems</li>
+                    <li>Customer onboarding, KYC and e-KYC workflow solutions</li>
+                    <li>Migration and modernization of legacy banking applications</li>
+                </ul>
+            </div>
+
+            
+            <div class="section-block">
+                <h4>What We Help Banks Achieve</h4>
+                <ul class="list-custom">
+                    <li>Accelerate the move towards a <strong>cashless economy</strong></li>
+                    <li>Deliver seamless, secure and user-friendly digital payment experiences</li>
+                    <li>Optimize operational costs with modern, modular architectures</li>
+                    <li>Meet regulatory and compliance requirements with confidence</li>
+                    <li>Launch new products faster in highly competitive markets</li>
+                </ul>
+            </div>
+
+           
+            <div class="section-block">
+                <h4>Why NeST Digital for BFS?</h4>
+                <ul class="list-custom">
+                    <li>20+ years of proven presence in the GCC financial technology space</li>
+                    <li>Deep understanding of both <strong>global standards</strong> and <strong>local priorities</strong></li>
+                    <li>Strong partnership track record with major banks and financial institutions</li>
+                    <li>Combination of domain expertise, technology capability and delivery excellence</li>
+                </ul>
+            </div>
+
+            <footer>
+                2025 © All rights reserved NeST Technologies Corp.
+            </footer>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
